@@ -1,0 +1,68 @@
+
+div.topnav{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#a{
+    display: inline;
+}
+
+@media only screen and (max-width: 599px) {
+    div.topnav {
+      background-color: white;
+      border-style: solid;
+      text-align: left;
+    }
+    ul.a {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+      } 
+      
+      li a {
+        display: block;
+      }
+
+}
+
+table, td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 10px;
+}
+table {
+    border-spacing: 5px;
+}
+
+#uppgift4{
+    background-color: aqua;
+    width: 800px;
+    height: 300px;
+    
+}
+#under{
+    background-color: red;
+    text-align: end;
+    height: 100px;
+    width: 600px;
+    position: relative;
+    bottom: 75px;
+    left: 140px;
+    z-index: 1;
+}
+#above {
+    background-color: rgb(104, 241, 104);
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    z-index: 2;
+}
+
